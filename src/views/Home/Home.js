@@ -103,11 +103,14 @@ const Home = () => {
   const tombLpZap = useZap({ depositTokenName: 'TOMB-FTM-LP' });
   const tshareLpZap = useZap({ depositTokenName: 'TSHARE-FTM-LP' });
 
+<<<<<<< HEAD
+=======
   const StyledLink = styled.a`
     font-weight: 700;
     text-decoration: none;
   `;
 
+>>>>>>> upstream/main
   const [onPresentTombZap, onDissmissTombZap] = useModal(
     <ZapModal
       decimals={18}
@@ -327,7 +330,11 @@ const Home = () => {
                 </CardIcon>
               </Box>
               <Box mt={2}>
+<<<<<<< HEAD
+                <Button color="primary" onClick={onPresentTombZap} variant="contained">
+=======
                 <Button color="primary" disabled={true} onClick={onPresentTombZap} variant="contained">
+>>>>>>> upstream/main
                   Zap In
                 </Button>
               </Box>
@@ -355,7 +362,15 @@ const Home = () => {
                 </CardIcon>
               </Box>
               <Box mt={2}>
+<<<<<<< HEAD
+                <Button
+                  color="primary"
+                  onClick={onPresentTshareZap}
+                  variant="contained"
+                >
+=======
                 <Button color="primary" onClick={onPresentTshareZap} variant="contained">
+>>>>>>> upstream/main
                   Zap In
                 </Button>
               </Box>
